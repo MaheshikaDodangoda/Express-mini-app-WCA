@@ -1,0 +1,39 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1433956937861468",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551781880",
+              "phone_number_id": "697979973409780"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Mahe💫"
+                },
+                "wa_id": "94782586272"
+              }
+            ],
+            "messages": [
+              {
+                "from": "94782586272",
+                "id": "wamid.HBgLOTQ3ODI1ODYyNzIVAgASGCBBQzkyMkFEQUIwRTY3NDQ5NjAxRkNFMUI5RjNDMjgxNAA=",
+                "timestamp": "1758061596",
+                "text": {
+                  "body": "Good morning"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
