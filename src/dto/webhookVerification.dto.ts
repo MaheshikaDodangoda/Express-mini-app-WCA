@@ -9,6 +9,8 @@ export interface WebhookVerificationResponseDto {
     challenge: string;
 }
 
+
+
 export interface WebhookMessageDto {
     object: string;
     entry : [
@@ -40,8 +42,13 @@ export interface WebhookMessageDto {
                                 }
                                 type:string
                             }
-                        ]
+                        ],
+                        errors:[],
+                        statuses:[{
+                            status:string;
+                        }],
                     };
+                    
                     field:string;
                 }
             ]
