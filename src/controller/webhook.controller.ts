@@ -10,7 +10,7 @@ export class WebhookController {
         this.webhookService = WebhookService.getInstance();
     }
 
-
+    
     webhook = async (req: Request, res: Response) => {
         const mode = req.query['hub.mode'] as string;
         const challenge = req.query['hub.challenge'] as string;
@@ -30,10 +30,11 @@ export class WebhookController {
     }
 
     webhookMessage = async (req: Request, res: Response) => {
+        //console.log(JSON.stringify(req.body));
         const data = req.body as WebhookMessageDto;
 
         const isReplied = await this.webhookService.handleReceiveMessage(data);
-       
+
         if(isReplied){
             res.status(200).send('OK');
         }else{

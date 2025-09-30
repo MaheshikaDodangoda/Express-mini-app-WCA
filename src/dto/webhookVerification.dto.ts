@@ -9,8 +9,6 @@ export interface WebhookVerificationResponseDto {
     challenge: string;
 }
 
-
-
 export interface WebhookMessageDto {
     object: string;
     entry : [

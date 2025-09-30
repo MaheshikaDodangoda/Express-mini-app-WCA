@@ -29,7 +29,27 @@
                 },
                 "type": "text"
               }
-            ]
+            ],
+            "statuses": [
+              {
+                "id":"wamid.HBgLOTQ3ODI1ODYyNzIVAgARGBIwNjJBQURENjhGMkMyMEI0QjIA",
+                "status":"sent",
+                "timestamp":"1759166737",
+                "recipient_id":"94782586272",
+                "conversation":{"id":"1e5b5d94b5f8d299decb70e6ea1c7a50",
+                "expiration_timestamp":"1759166737",
+                "origin":{
+                  "type":"service"
+                  }
+                  },
+                  "pricing":{
+                    "billable":false,
+                    "pricing_model":"PMP",
+                    "category":"service",
+                    "type":"free_customer_service"
+                    }
+                }
+              ]
           },
           "field": "messages"
         }
